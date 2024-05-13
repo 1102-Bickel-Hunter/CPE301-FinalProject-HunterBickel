@@ -11,6 +11,8 @@ The temperature to trigger the "RUNNING" state is any temp above 22*C. This is m
 
 The power requirement for this project is just 5v.
 
+The components I used were the Arduino Mega 2560, which is the main part of the cooler, an LCD1602 Module which displays the text of the cooler, a Stepper motor for turning the vent and a ULN2003 Stepper Motor driver module to connect the stepper motor to, a water level detection module to test if the water level is too low, a DS1307 RTC module that acts as a real-time clock for the system, a DHT11 temperature and humidity module to record temperature for the cooler, 2 potentiometers (1 for LCD1602 and one for stepper motor input), a fan blade and a 3-6V motor to cool the water, and 4 LEDs to signal the different states of the cooler.
+
 ## Photos
 On DISABLED
 ![alt text](https://github.com/1102-Bickel-Hunter/CPE301-FinalProject-HunterBickel/blob/main/yellow.jpg?raw=true)
